@@ -35,9 +35,16 @@
     position: absolute;
 }
 
+/* .navbarScroll.navbarDark {
+    background-color: rgba(173, 216, 230, 0.5);
+} */
+
 .navbarScroll.navbarDark {
-    background-color: black;
+    background-color: rgba(173, 216, 230, 0.5); /* Slightly opaque white */
+    backdrop-filter: blur(10px); /* Adjust the blur value as needed */
+    /* Other CSS properties for styling your navbar */
 }
+
 
 .logo{
     padding: 10px;
