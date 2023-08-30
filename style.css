@@ -298,7 +298,7 @@ h1{
 
 .hero_title {
   opacity: 0; /* Start with the text hidden */
-  animation: fadeIn 0.5s ease forwards; /* Apply the animation */
+  animation: fadeIn 2s ease forwards; /* Apply the animation */
 }
 
 @keyframes fadeIn {
