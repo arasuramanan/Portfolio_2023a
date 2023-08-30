@@ -295,4 +295,20 @@ h1{
   
     /* Adjust other specific styles as needed for mobile */
   }
+
+.hero_title {
+  opacity: 0; /* Start with the text hidden */
+  animation: fadeIn 2s ease forwards; /* Apply the animation */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* Start with 0 opacity */
+    transform: translateY(-20px); /* Move the text up slightly */
+  }
+  to {
+    opacity: 1; /* End with full opacity */
+    transform: translateY(0); /* Return the text to its original position */
+  }
+}
   
