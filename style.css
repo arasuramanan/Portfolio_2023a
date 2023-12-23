@@ -31,6 +31,22 @@
     position:relative;
 }
 
+.bgimage1 {
+    height:100vh;
+    /* background: url('https://4kwallpapers.com/images/walls/thumbs_3t/8611.jpg'); */
+    background: url('./chess.jpg');
+    background-size:cover;
+    position:relative;
+}
+
+.bgimage2 {
+    height:100vh;
+    /* background: url('https://4kwallpapers.com/images/walls/thumbs_3t/8611.jpg'); */
+    background: url('./chess.jpg');
+    background-size:cover;
+    position:relative;
+}
+
 .imageAboutPage{
     position: absolute;
 }
