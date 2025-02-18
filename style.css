@@ -152,6 +152,9 @@ h1{
 .servicesText.card {
     height: 350px;
     cursor: pointer;
+     display: flex;
+  flex-direction: column;
+  gap: 10px;
   }
 .servicesIcon {
     font-size: 36px;
