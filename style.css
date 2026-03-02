@@ -21,7 +21,47 @@
 .whatsapp-nav:hover{
     color: #25d366 !important;
 }
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: left;   /* THIS centers the badges horizontally */
+    margin-top: 20px;
+}
 
+.skills p {
+    width: 550px;          /* give fixed width */
+    text-align: center;    /* center text inside badge */
+
+    background: linear-gradient(
+        135deg,
+        #7a0000 0%,
+        #c40000 25%,
+        #ff1a1a 50%,
+        #c40000 75%,
+        #7a0000 100%
+    );
+
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin: 0;
+    cursor: pointer;
+
+    box-shadow: 
+        0 4px 10px rgba(0,0,0,0.2),
+        inset 0 2px 6px rgba(255,255,255,0.3);
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skills p:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 
+        0 10px 25px rgba(255, 0, 0, 0.4),
+        inset 0 2px 8px rgba(255,255,255,0.4);
+}
 
 .bgimage {
     height:100vh;
